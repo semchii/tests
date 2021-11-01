@@ -14,7 +14,7 @@ def first_task (text):
             alpha.insert(index, value)
         reversed_txt = ''.join(alpha)
         reversed_text.append(reversed_txt)
-    print ' '.join(reversed_text)
+    Return ' '.join(reversed_text)
 
 if __name__ == '__main__':
     first_task ('abcd efgh')
