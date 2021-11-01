@@ -13,7 +13,7 @@ class FirstTaskTest (TestCase):
             first_task(0)
 
 
-    def test_three(self):
+    def test_true(self):
         first_task('a1bcd efg!h')
         self.assertTrue(first_task('d1cba hgf!e'))
 
